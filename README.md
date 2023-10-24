@@ -32,6 +32,7 @@ Refer to LICENSE
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg
+- https://www.w3schools.com/js/js_classes.asp
 
 ## Screenshots
 
