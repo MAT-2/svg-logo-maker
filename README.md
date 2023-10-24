@@ -33,6 +33,11 @@ Refer to LICENSE
 
 - https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg
 - https://www.w3schools.com/js/js_classes.asp
+- https://www.freecodecamp.org/news/module-exports-how-to-export-in-node-js-and-javascript/#:~:text=module.exports%20is%20an%20object,with%20the%20require%20global%20method.
+- https://www.w3schools.com/graphics/svg_rect.asp
+- https://www.w3schools.com/graphics/svg_polygon.asp
+- https://www.w3schools.com/graphics/svg_text.asp
+- https://www.w3schools.com/graphics/svg_intro.asp
 
 ## Screenshots
 

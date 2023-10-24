@@ -1,8 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("inquirer");
-const express = require("express");
-const app = express();
-const PORT = 3001;
+//exporting children classes from shape.js from lib folder using deconstructuring.
+const { Circle, Triangle, Square } = require("./lib/shape.js");
 
 //List of questions user will be prompted to create SVG.
 inquirer.prompt([
