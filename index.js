@@ -1,9 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("inquirer");
-
-(function () {
-  console.log("Hello World");
-})();
+const express = require("express");
+const app = express();
+const PORT = 3001;
 
 //List of questions user will be prompted to create SVG.
 inquirer.prompt([
