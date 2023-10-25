@@ -16,14 +16,13 @@ Module 10 - Creating a SVG logo via Node.JS.
 
 ## Summary
 
-Begin summary here.
+Being able to create a SVG image from scratch via the backend was tough. It was a lot of fun learning how to communicate between files and servers, as well as setting up Inquirer to communicate with the user to collect inputs and use existing data to create something. The difficulty lies with setting up classes, exporting the children classes, and brainstorming to understand how we can use a separate file to our main index.js when communicating with servers to create the expected response (i.e. the SVG images). Using fs methods were tricky, and I had a lot of issues trying to debug what and how to fix the issue.
 
 ## Installation
 
 - Inquirer v.8.2.4: https://www.npmjs.com/package/inquirer/v/8.2.4#installation
 - Jest v.29.7.0: https://www.npmjs.com/package/jest
 - Node.JS: https://nodejs.org/en npm init -y
-- Express.JS v.4.18.2
 
 ## License
 
