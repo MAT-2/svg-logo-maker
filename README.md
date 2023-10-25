@@ -39,7 +39,9 @@ Refer to LICENSE
 - https://www.w3schools.com/graphics/svg_intro.asp
 - https://www.w3schools.com/jsref/jsref_class_extends.asp
 - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
--
+
+## Tutoring Assistance
+- Charles Puente-Matos (Bootcamp Tutoring)
 
 ## Showcase
 https://drive.google.com/file/d/1Qq28pfA5LC6X7gUuAcRvDLd7_ktJ6BnM/view
