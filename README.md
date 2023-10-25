@@ -38,7 +38,8 @@ Refer to LICENSE
 - https://www.w3schools.com/graphics/svg_polygon.asp
 - https://www.w3schools.com/graphics/svg_text.asp
 - https://www.w3schools.com/graphics/svg_intro.asp
-
-## Screenshots
+- https://www.w3schools.com/jsref/jsref_class_extends.asp
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+-
 
 ## Showcase

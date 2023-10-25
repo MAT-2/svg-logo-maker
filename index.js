@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const fs = require("inquirer");
+const fs = require("fs");
 //exporting children classes from shape.js from lib folder using deconstructuring.
 const { Circle, Triangle, Square } = require("./lib/shape.js");
 
@@ -30,19 +30,27 @@ inquirer
       name: "colorShape",
     },
   ])
-  .then((inquirer) => {
+  .then((responses) => {
     let shape;
-    if (inquirer.shape === "Circle") {
+    if (responses.shape === "Circle") {
       shape = new Circle();
-      shape.setColor(inquirer.colorShape);
-      shape.setColorChars(inquirer.colorChars);
-    } else if (inquirer.shape === Triangle) {
+      shape.setColor(responses.colorShape);
+      shape.setColorChars(responses.colorChars);
+    } else if (responses.shape === "Triangle") {
+      shape = new Triangle();
+      shape.setColor(responses.colorShape);
+      shape.setColorChars(responses.colorChars);
     } else {
+      shape = new Square();
+      shape.setColor(responses.colorShape);
+      shape.setColorChars(responses.colorChars);
     }
-    fs.writeFile("shape.svg", shape, (err) => {
+    console.log(responses);
+    fs.writeFile("shape.svg", responses.shape, (err) => {
       err ? console.log(err) : console.log("SVG generated!");
     });
   })
+
   .catch((err) => {
-    console.log("ERROR: Please include the details specified.");
+    console.log(err);
   });
